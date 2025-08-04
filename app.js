@@ -15,7 +15,7 @@ function agregarAmigo(nombre) {
     }else if (amigo !== "") { // si el nombre no está vacío
         // agregar el amigo a la lista
         amigos.push(amigo);
-        alert(`Amigo ${amigo} agregado.`);
+        //alert(`Amigo ${amigo} agregado.`);
         // limpiar el campo de entrada
         document.getElementById("amigo").value = "";
         // mostrar la lista de amigos
@@ -35,5 +35,19 @@ function asignarTextoElemento(elemento, lista) {
         li.textContent = amigo;// Asignar el nombre del amigo al elemento li
         listaHTML.appendChild(li); // Agregar el elemento a la lista HTML
     }
+    return;
+}
+
+//funcion para sortear la lista de amigos y mostrar el resultado
+function sortearAmigo() {
+    if (amigos.length === 0) { // verificar si la lista de amigos está vacía
+        alert("No hay amigos para sortear.");
+        return;
+    }
+    // seleccionar un amigo al azar
+    let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+    // mostrar el amigo sorteado
+    let mostrarAmigo= document.getElementById("resultado")
+    mostrarAmigo.innerHTML = `<p>El amigo sorteado es:</p> <h2>${amigoSorteado}</h2>`;
     return;
 }
