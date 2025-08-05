@@ -28,7 +28,7 @@ Esta es una aplicación web sencilla y responsiva para organizar el juego de "Am
 Solo necesitas un navegador web moderno. No requiere instalación de dependencias.
 
 ## Autor
-Desarrollado por Harold para el curso ORACLE ONE NEXT EDUCATION, basado en materiales y ejemplos proporcionados por Alura Latam.
+Desarrollado por Harold Agudelo para el curso ORACLE ONE NEXT EDUCATION, basado en materiales y ejemplos proporcionados por Alura Latam.
 
 ## Licencia
 Esta aplicación se distribuye bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
