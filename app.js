@@ -48,6 +48,6 @@ function sortearAmigo() {
     let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
     // mostrar el amigo sorteado
     let mostrarAmigo= document.getElementById("resultado")
-    mostrarAmigo.innerHTML = `<p>El amigo sorteado es:</p> <h2>${amigoSorteado}</h2>`;
+    mostrarAmigo.innerHTML = `<h5>El amigo secreto para esta ocasión es:</h5> <h2>${amigoSorteado}</h2>`;
     return;
 }
