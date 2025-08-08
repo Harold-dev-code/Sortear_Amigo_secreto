@@ -38,4 +38,4 @@ Esta aplicación se distribuye bajo la licencia MIT. Consulta el archivo LICENSE
 ![Vista de la app](assets/app_imagen01.png)
 
 Puedes probar la aplicación en línea aquí:
-[Ver la app en GitHub Pages](https://haroldsolocode.github.io/Sortear_Amigo_secreto/)
+[Ver la app en GitHub Pages](https://harold-dev-code.github.io/Sortear_Amigo_secreto/)
